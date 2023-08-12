@@ -25,9 +25,6 @@ body {
 
 .btn {
     display: block;
-    position: relative;
-
-    left: 360px;
     border: none;
     background: rgb(248, 168, 24);
     border-radius: 10px;

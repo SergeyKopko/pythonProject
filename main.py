@@ -7,7 +7,7 @@ bot = telebot.TeleBot(TOKEN)
 
 info_genre = {}
 dict_name_btn = {'Comedy': 'Комедия', 'Romantic': 'Романтика', 'Sport': 'Спорт', 'School': 'Школа', }
-web_app = WebAppInfo(url="https://sergeykopko.github.io/anime.github.io/")
+web_app = WebAppInfo(url="https://sergeykopko.github.io/")
 #start bot
 @bot.message_handler(commands=['start'])
 def start_command(message):
