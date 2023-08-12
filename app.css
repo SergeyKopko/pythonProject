@@ -1,0 +1,37 @@
+body {
+   margin: 0 ;
+   padding: 0;
+   font-size: 18px;
+}
+
+.container {
+    padding-top: 40px;
+    min-width: 390px;
+}
+
+.genres {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.img {
+    width: 150px;
+}
+
+.genre {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    position: relative;
+
+    left: 360px;
+    border: none;
+    background: rgb(248, 168, 24);
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
